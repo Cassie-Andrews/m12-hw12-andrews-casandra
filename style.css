@@ -8,7 +8,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(2, .5fr);
-  grid-template-rows: repeat(3, 200px);
+  grid-template-rows: repeat(3, 170px);
   grid-template-areas: 
   'header header'
   'nav img_card__container'
@@ -27,7 +27,7 @@ body {
   display: grid;
   align-items: center;
   justify-items: center;
-  max-height: 140px;
+  max-height: 130px;
 }
 
 .header__title {
@@ -42,8 +42,9 @@ body {
   display: grid;
   row-gap: 24px;
   grid-template-columns: 1fr;
-  max-width: 200px;
+  max-width: 190px;
   align-self: left;
+  margin-left: 50px;
   justify-items: center;
   padding: 12px 0 24px;
 }
