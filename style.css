@@ -15,7 +15,7 @@ body {
   'footer footer';
   font-family: 'Indie Flower', cursive;
   font-size: 1.2rem;
-  margin: auto;
+  margin: 0;
   box-sizing: border-box;
   min-height: 100vh;
 }
@@ -95,7 +95,7 @@ body {
 .footer {
   grid-area: footer;
   display: grid;
-  align-items: center;
+  align-items: self-end;
   justify-items: center;
 }
 
